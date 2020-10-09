@@ -16,7 +16,7 @@
     <message>
         <location filename="../AboutDialog.ui" line="102"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;DB Browser for SQLite is an open source, freeware visual tool used to create, design and edit SQLite database files.&lt;/p&gt;&lt;p&gt;It is bi-licensed under the Mozilla Public License Version 2, as well as the GNU General Public License Version 3 or later. You can modify or redistribute it under the conditions of these licenses.&lt;/p&gt;&lt;p&gt;See &lt;a href=&quot;http://www.gnu.org/licenses/gpl.html&quot;&gt;http://www.gnu.org/licenses/gpl.html&lt;/a&gt; and &lt;a href=&quot;https://www.mozilla.org/MPL/2.0/index.txt&quot;&gt;https://www.mozilla.org/MPL/2.0/index.txt&lt;/a&gt; for details.&lt;/p&gt;&lt;p&gt;For more information on this program please visit our website at: &lt;a href=&quot;http://sqlitebrowser.org&quot;&gt;http://sqlitebrowser.org&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:small;&quot;&gt;This software uses the GPL/LGPL Qt Toolkit from &lt;/span&gt;&lt;a href=&quot;http://qt-project.org/&quot;&gt;&lt;span style=&quot; font-size:small;&quot;&gt;http://qt-project.org/&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-size:small;&quot;&gt;&lt;br/&gt;See &lt;/span&gt;&lt;a href=&quot;http://qt-project.org/doc/qt-5/licensing.html&quot;&gt;&lt;span style=&quot; font-size:small;&quot;&gt;http://qt-project.org/doc/qt-5/licensing.html&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-size:small;&quot;&gt; for licensing terms and information.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:small;&quot;&gt;It also uses the Silk icon set by Mark James licensed under a Creative Commons Attribution 2.5 and 3.0 license.&lt;br/&gt;See &lt;/span&gt;&lt;a href=&quot;http://www.famfamfam.com/lab/icons/silk/&quot;&gt;&lt;span style=&quot; font-size:small;&quot;&gt;http://www.famfamfam.com/lab/icons/silk/&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-size:small;&quot;&gt; for details.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;DB Browser for SQLite 是一个开源免费的可视化工具，用于创建、设计和编辑 SQLite 数据库文件。&lt;/p&gt;&lt;p&gt;它以第 2 版 Mozilla 公共许可，以及第 3 版及之后版本的 GNU 通用许可方式授权。你可以在遵循这些许可的条件下修改或重新发布它。&lt;/p&gt;&lt;p&gt;参阅 &lt;a href=&quot;http://www.gnu.org/licenses/gpl.html&quot;&gt;http://www.gnu.org/licenses/gpl.html&lt;/a&gt; and &lt;a href=&quot;https://www.mozilla.org/MPL/2.0/index.txt&quot;&gt;https://www.mozilla.org/MPL/2.0/index.txt&lt;/a&gt; 了解细节。&lt;/p&gt;&lt;p&gt;要获得本程序的更多信息，请访问我们的网站: &lt;a href=&quot;http://sqlitebrowser.org&quot;&gt;http://sqlitebrowser.org&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:small;&quot;&gt;这个软件使用了来自于 &lt;/span&gt;&lt;a href=&quot;http://qt-project.org/&quot;&gt;&lt;span style=&quot; font-size:small;&quot;&gt;http://qt-project.org/&lt;/span&gt;&lt;/a&gt; &lt;span style=&quot; font-size:small;&quot;&gt;的 GPL/LGPL Qt Toolkit。&lt;br/&gt;参阅 &lt;/span&gt;&lt;a href=&quot;http://qt-project.org/doc/qt-5/licensing.html&quot;&gt;&lt;span style=&quot; font-size:small;&quot;&gt;http://qt-project.org/doc/qt-5/licensing.html&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-size:small;&quot;&gt; 了解许可条款和其他信息。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:small;&quot;&gt;它还使用了 Mark James 的 Silk 图标集，以第 2.5 和 3.0 版知识共享署名(CCA)许可方式授权。&lt;br/&gt;参阅 &lt;/span&gt;&lt;a href=&quot;http://www.famfamfam.com/lab/icons/silk/&quot;&gt;&lt;span style=&quot; font-size:small;&quot;&gt;http://www.famfamfam.com/lab/icons/silk/&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-size:small;&quot;&gt; 了解细节。&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;DB Browser for SQLite 是一个开源、免费的可视化工具，用于创建、设计和编辑 SQLite 数据库文件。&lt;/p&gt;&lt;p&gt;它的授权遵循 Mozilla 公共许可证第二版，以及 GNU 通用公共许可证第三版或更新版。你可以在遵循这些许可证的前提下对其修改或再分发。&lt;/p&gt;&lt;p&gt;细则详见 &lt;a href=&quot;http://www.gnu.org/licenses/gpl.html&quot;&gt;http://www.gnu.org/licenses/gpl.html&lt;/a&gt; 和 &lt;a href=&quot;https://www.mozilla.org/MPL/2.0/index.txt&quot;&gt;https://www.mozilla.org/MPL/2.0/index.txt&lt;/a&gt;。&lt;/p&gt;&lt;p&gt;有关此程序的更多信息，请访问我们的网站: &lt;a href=&quot;http://sqlitebrowser.org&quot;&gt;http://sqlitebrowser.org&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:small;&quot;&gt;本软件使用了 &lt;/span&gt;&lt;a href=&quot;http://qt-project.org/&quot;&gt;&lt;span style=&quot; font-size:small;&quot;&gt;http://qt-project.org/&lt;/span&gt;&lt;/a&gt; &lt;span style=&quot; font-size:small;&quot;&gt;的 GPL/LGPL Qt Toolkit。&lt;br/&gt;许可条款和其他信息详见 &lt;/span&gt;&lt;a href=&quot;http://qt-project.org/doc/qt-5/licensing.html&quot;&gt;&lt;span style=&quot; font-size:small;&quot;&gt;http://qt-project.org/doc/qt-5/licensing.html&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-size:small;&quot;&gt;。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:small;&quot;&gt;它也使用了 Mark James 的 Silk 图标集，按知识共享-署名的 2.5 和 3.0 版许可证。&lt;br/&gt;详见 &lt;/span&gt;&lt;a href=&quot;http://www.famfamfam.com/lab/icons/silk/&quot;&gt;&lt;span style=&quot; font-size:small;&quot;&gt;http://www.famfamfam.com/lab/icons/silk/&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-size:small;&quot;&gt;。&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;DB Browser for SQLite is an open source, freeware visual tool used to create, design and edit SQLite database files.&lt;/p&gt;&lt;p&gt;It is bi-licensed under the Mozilla Public License Version 2, as well as the GNU General Public License Version 3 or later. You can modify or redistribute it under the conditions of these licenses.&lt;/p&gt;&lt;p&gt;See &lt;a href=&quot;http://www.gnu.org/licenses/gpl.html&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;http://www.gnu.org/licenses/gpl.html&lt;/span&gt;&lt;/a&gt; and &lt;a href=&quot;https://www.mozilla.org/MPL/2.0/index.txt&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;https://www.mozilla.org/MPL/2.0/index.txt&lt;/span&gt;&lt;/a&gt; for details.&lt;/p&gt;&lt;p&gt;For more information on this program please visit our website at: &lt;a href=&quot;https://sqlitebrowser.org&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;https://sqlitebrowser.org&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:small;&quot;&gt;This software uses the GPL/LGPL Qt Toolkit from &lt;/span&gt;&lt;a href=&quot;http://qt-project.org/&quot;&gt;&lt;span style=&quot; font-size:small; text-decoration: underline; color:#0000ff;&quot;&gt;http://qt-project.org/&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-size:small;&quot;&gt;&lt;br/&gt;See &lt;/span&gt;&lt;a href=&quot;http://qt-project.org/doc/qt-5/licensing.html&quot;&gt;&lt;span style=&quot; font-size:small; text-decoration: underline; color:#0000ff;&quot;&gt;http://qt-project.org/doc/qt-5/licensing.html&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-size:small;&quot;&gt; for licensing terms and information.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:small;&quot;&gt;It also uses the Silk icon set by Mark James licensed under a Creative Commons Attribution 2.5 and 3.0 license.&lt;br/&gt;See &lt;/span&gt;&lt;a href=&quot;http://www.famfamfam.com/lab/icons/silk/&quot;&gt;&lt;span style=&quot; font-size:small; text-decoration: underline; color:#0000ff;&quot;&gt;http://www.famfamfam.com/lab/icons/silk/&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-size:small;&quot;&gt; for details.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
@@ -71,7 +71,7 @@
     <message>
         <location filename="../AddRecordDialog.ui" line="67"/>
         <source>In the Value column you can specify the value for the field identified in the Name column. The Type column indicates the type of the field. Default values are displayed in the same style as NULL values.</source>
-        <translation>在值列，你可以选择给对应名字列的值。类型列显示了字段的类型。默认值的显示样式和 NULL 值一样。</translation>
+        <translation>在“值”列中指定对应“名称”列的值。“类型”提供字段的类型。默认值的显示样式等同 NULL 值。</translation>
     </message>
     <message>
         <location filename="../AddRecordDialog.ui" line="74"/>
@@ -91,17 +91,17 @@
     <message>
         <location filename="../AddRecordDialog.ui" line="87"/>
         <source>Values to insert. Pre-filled default values are inserted automatically unless they are changed.</source>
-        <translation>要插入的值。如果没有修改，就会插入事先填好的默认值。</translation>
+        <translation>要插入的值。不做修改则会使用默认填好的默认值。</translation>
     </message>
     <message>
         <location filename="../AddRecordDialog.ui" line="93"/>
         <source>When you edit the values in the upper frame, the SQL query for inserting this new record is shown here. You can edit manually the query before saving.</source>
-        <translation>当你在上面编辑值时，这里会显示插入新记录所用的 SQL 语句。你可以在保存前手动修改这些语句。</translation>
+        <translation>你在上方编辑值时，这里会显示插入新记录所用的 SQL 语句。你可以在保存前手动修改语句。</translation>
     </message>
     <message>
         <location filename="../AddRecordDialog.ui" line="110"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Save&lt;/span&gt; will submit the shown SQL statement to the database for inserting the new record.&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Restore Defaults&lt;/span&gt; will restore the initial values in the &lt;span style=&quot; font-weight:600;&quot;&gt;Value&lt;/span&gt; column.&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Cancel&lt;/span&gt; will close this dialog without executing the query.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;保存&lt;/span&gt; 将会把显示的 SQL 语句提交到数据库以插入新记录。&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;恢复默认&lt;/span&gt; 将会把 &lt;span style=&quot; font-weight:600;&quot;&gt;值&lt;/span&gt; 恢复成默认值。&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;取消&lt;/span&gt; 将会关闭此界面，不执行 SQL 语句。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;保存&lt;/span&gt; 将会把显示的 SQL 语句提交到数据库以插入新记录。&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;恢复默认&lt;/span&gt; 将会把 &lt;span style=&quot; font-weight:600;&quot;&gt;值&lt;/span&gt; 列恢复为初始值。&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;取消&lt;/span&gt; 将会关闭此界面，不执行语句。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../AddRecordDialog.cpp" line="234"/>
@@ -175,12 +175,12 @@
     <message>
         <location filename="../Application.cpp" line="91"/>
         <source>  -s, --sql [file]	Execute this SQL file after opening the DB</source>
-        <translation>  -s, --sql [文件]	在打开数据库后执行此 SQL 文件</translation>
+        <translation>  -s, --sql [文件]	打开数据库后执行此 SQL 文件</translation>
     </message>
     <message>
         <location filename="../Application.cpp" line="92"/>
         <source>  -t, --table [table]	Browse this table after opening the DB</source>
-        <translation>  -t, --table [表]	在打开数据库后浏览此表</translation>
+        <translation>  -t, --table [表]	打开数据库后浏览此表</translation>
     </message>
     <message>
         <location filename="../Application.cpp" line="94"/>
@@ -195,7 +195,7 @@
     <message>
         <location filename="../Application.cpp" line="100"/>
         <source>This is DB Browser for SQLite version %1.</source>
-        <translation>这是 DB Browser for SQLite 版本 %1%2. {1.?}</translation>
+        <translation>这是 DB Browser for SQLite 版本 %1。</translation>
     </message>
     <message>
         <location filename="../Application.cpp" line="121"/>
@@ -205,12 +205,12 @@
     <message>
         <location filename="../Application.cpp" line="90"/>
         <source>  -q, --quit		Exit application after running scripts</source>
-        <translation>  -q, --quit		在运行脚本后退出应用程序</translation>
+        <translation>  -q, --quit		运行脚本后退出应用程序</translation>
     </message>
     <message>
         <location filename="../Application.cpp" line="93"/>
         <source>  -R, --read-only	Open database in read-only mode</source>
-        <translation>  -R, --read-only	用只读模式打开数据库</translation>
+        <translation>  -R, --read-only	以只读模式打开数据库</translation>
     </message>
     <message>
         <location filename="../Application.cpp" line="96"/>
@@ -220,7 +220,7 @@
     <message>
         <location filename="../Application.cpp" line="97"/>
         <source>  [file]		Open this SQLite database</source>
-        <translation>  [文件]		打开这个 SQLite 数据库</translation>
+        <translation>  [文件]		打开该 SQLite 数据库</translation>
     </message>
     <message>
         <source>This is DB Browser for SQLite version %1%2.</source>
@@ -1112,13 +1112,13 @@ Errors are indicated with a red squiggle underline.</source>
     <message>
         <location filename="../EditDialog.ui" line="353"/>
         <source>&amp;Export...</source>
-        <translation>导出(&amp;E)</translation>
+        <translation>导出(&amp;E)...</translation>
     </message>
     <message>
         <location filename="../EditDialog.ui" line="368"/>
         <location filename="../EditDialog.ui" line="443"/>
         <source>&amp;Import...</source>
-        <translation>导入(&amp;I)</translation>
+        <translation>导入(&amp;I)...</translation>
     </message>
     <message>
         <location filename="../EditDialog.ui" line="371"/>
@@ -2921,7 +2921,7 @@ x~y	范围: 值在 x 和 y 之间
     <message>
         <location filename="../MainWindow.ui" line="2068"/>
         <source>Un/comment block of SQL code</source>
-        <translation>注释/取消注释SQL代码</translation>
+        <translation>注释/取消注释 SQL 代码</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="2071"/>
@@ -2931,12 +2931,12 @@ x~y	范围: 值在 x 和 y 之间
     <message>
         <location filename="../MainWindow.ui" line="2074"/>
         <source>Comment or uncomment current line or selected block of code</source>
-        <translation>注释或取消注释当前行或选中的代码段</translation>
+        <translation>注释/取消注释当前行或选中的代码段</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="2077"/>
         <source>Comment or uncomment the selected lines or the current line, when there is no selection. All the block is toggled according to the first line.</source>
-        <translation>注释或取消注释当前选中的代码段。当没有选中时为当前行。代码段的注释状态由第一行决定。</translation>
+        <translation>注释/取消注释选中的代码段，没有选中时为当前行。代码段的注释状态由第一行决定。</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="2080"/>
@@ -2946,7 +2946,7 @@ x~y	范围: 值在 x 和 y 之间
     <message>
         <location filename="../MainWindow.ui" line="2092"/>
         <source>Stop SQL execution</source>
-        <translation>停止执行SQL</translation>
+        <translation>停止 SQL 执行</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="2095"/>
@@ -2956,7 +2956,7 @@ x~y	范围: 值在 x 和 y 之间
     <message>
         <location filename="../MainWindow.ui" line="2098"/>
         <source>Stop the currently running SQL script</source>
-        <translation>停止当前运行的SQL脚本</translation>
+        <translation>停止当前运行的 SQL 脚本</translation>
     </message>
     <message>
         <source>Insert a new record in the current table</source>
@@ -4734,7 +4734,7 @@ Leave the field empty for using the database encoding.</source>
     <message>
         <location filename="../MainWindow.cpp" line="1333"/>
         <source>Are you sure you want to undo all changes made to the database file &apos;%1&apos; since the last save?</source>
-        <translation>您是否确认您想撤销从上次保存以来对数据库文件‘%1’做出的所有更改。?</translation>
+        <translation>您是否确定想撤销自上次保存以来对数据库文件“%1”所做的所有更改？</translation>
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="1363"/>
@@ -5041,12 +5041,12 @@ Create a backup!</source>
     <message>
         <location filename="../MainWindow.cpp" line="3108"/>
         <source>View successfully created.</source>
-        <translation>视图成功创建。</translation>
+        <translation>视图创建成功。</translation>
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="3110"/>
         <source>Error creating view: %1</source>
-        <translation>创建视图时出错: %1</translation>
+        <translation>创建视图出错: %1</translation>
     </message>
     <message>
         <source>There is no filter set for this table. View will not be created.</source>
@@ -6836,199 +6836,201 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../SqlUiLexer.cpp" line="66"/>
         <source>(X) The abs(X) function returns the absolute value of the numeric argument X.</source>
-        <translation type="unfinished"></translation>
+        <translation>(X) abs(X) 函数返回数字参数 X 的绝对值。</translation>
     </message>
     <message>
         <location filename="../SqlUiLexer.cpp" line="67"/>
         <source>() The changes() function returns the number of database rows that were changed or inserted or deleted by the most recently completed INSERT, DELETE, or UPDATE statement.</source>
-        <translation type="unfinished"></translation>
+        <translation>() changes() 函数返回最后完成的 INSERT、DELETE 或 UPDATE 数据所更改、插入或删除的数据库行数。</translation>
     </message>
     <message>
         <location filename="../SqlUiLexer.cpp" line="68"/>
         <source>(X1,X2,...) The char(X1,X2,...,XN) function returns a string composed of characters having the unicode code point values of integers X1 through XN, respectively. </source>
-        <translation type="unfinished"></translation>
+        <translation>(X1,X2,...) char(X1,X2,...,XN) 函数返回一个字符串，分别由整数 X1 至 XN 所代表的特定 Unicode 码点的字符组成。</translation>
     </message>
     <message>
         <location filename="../SqlUiLexer.cpp" line="69"/>
         <source>(X,Y,...) The coalesce() function returns a copy of its first non-NULL argument, or NULL if all arguments are NULL</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">(X,Y,...) coalesce() 函数返回第一个非 NULL 的参数副本，所有参数均为 NULL 则返回 NULL</translation>
     </message>
     <message>
         <location filename="../SqlUiLexer.cpp" line="70"/>
         <source>(X,Y) The glob(X,Y) function is equivalent to the expression &quot;Y GLOB X&quot;.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">(X,Y) glob(X,Y) 函数等效于表达式 &quot;Y GLOB X&quot;。</translation>
     </message>
     <message>
         <location filename="../SqlUiLexer.cpp" line="71"/>
         <source>(X,Y) The ifnull() function returns a copy of its first non-NULL argument, or NULL if both arguments are NULL.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">(X,Y) ifnull() 函数返回第一个非 NULL 的参数副本，两个参数均为 NULL 则返回 NULL。</translation>
     </message>
     <message>
         <location filename="../SqlUiLexer.cpp" line="72"/>
         <source>(X,Y) The instr(X,Y) function finds the first occurrence of string Y within string X and returns the number of prior characters plus 1, or 0 if Y is nowhere found within X.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">(X,Y) instr(X,Y) 函数查找字符串 Y 在字符串 X 中的第一处匹配，返回之前字符数加 1；如果 X 中找不到 Y，则返回 0。</translation>
     </message>
     <message>
         <location filename="../SqlUiLexer.cpp" line="73"/>
         <source>(X) The hex() function interprets its argument as a BLOB and returns a string which is the upper-case hexadecimal rendering of the content of that blob.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">(X) hex() 函数将其参数解释为一个 BLOB 并返回一个字符串，该字符串是该 Blob 内容的大写十六进制表现形式。</translation>
     </message>
     <message>
         <location filename="../SqlUiLexer.cpp" line="74"/>
         <source>() The last_insert_rowid() function returns the ROWID of the last row insert from the database connection which invoked the function.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">() last_insert_rowid() 函数返回调用该函数的数据库连接所插入的最后一行的 ROWID。</translation>
     </message>
     <message>
         <location filename="../SqlUiLexer.cpp" line="75"/>
         <source>(X) For a string value X, the length(X) function returns the number of characters (not bytes) in X prior to the first NUL character.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">(X) 对字符串值 X，length(X) 函数返回 X 的字符数（非字节数）（截至首个 NUL 字符）。</translation>
     </message>
     <message>
         <location filename="../SqlUiLexer.cpp" line="76"/>
         <source>(X,Y) The like() function is used to implement the &quot;Y LIKE X&quot; expression.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">(X,Y) like() 函数用于实现 &quot;Y LIKE X&quot; 表达式。</translation>
     </message>
     <message>
         <location filename="../SqlUiLexer.cpp" line="77"/>
         <source>(X,Y,Z) The like() function is used to implement the &quot;Y LIKE X ESCAPE Z&quot; expression.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">(X,Y,Z) like() 函数用于实现 &quot;Y LIKE X ESCAPE Z&quot; 表达式。</translation>
     </message>
     <message>
         <location filename="../SqlUiLexer.cpp" line="78"/>
         <source>(X) The load_extension(X) function loads SQLite extensions out of the shared library file named X.
 Use of this function must be authorized from Preferences.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">(X) load_extension(X) 函数从共享库文件 X 加载 SQLite 扩展。
+必须在“首选项”中授权使用此功能。</translation>
     </message>
     <message>
         <location filename="../SqlUiLexer.cpp" line="79"/>
         <source>(X,Y) The load_extension(X) function loads SQLite extensions out of the shared library file named X using the entry point Y.
 Use of this function must be authorized from Preferences.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">(X,Y) load_extension(X) 函数从共享库文件 X 的 入口点 Y 加载 SQLite 扩展。
+必须在“首选项”中授权使用此功能。</translation>
     </message>
     <message>
         <location filename="../SqlUiLexer.cpp" line="80"/>
         <source>(X) The lower(X) function returns a copy of string X with all ASCII characters converted to lower case.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">(X) lower(X) 函数返回字符串 X 的副本，其中将所有 ASCII 字符转换为小写。</translation>
     </message>
     <message>
         <location filename="../SqlUiLexer.cpp" line="81"/>
         <source>(X) ltrim(X) removes spaces from the left side of X.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">(X) ltrim(X) 移除 X 中左侧的空白字符。</translation>
     </message>
     <message>
         <location filename="../SqlUiLexer.cpp" line="82"/>
         <source>(X,Y) The ltrim(X,Y) function returns a string formed by removing any and all characters that appear in Y from the left side of X.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">(X,Y) The ltrim(X,Y) 函数返回一个字符串，该字符串是从 X 中的左侧删除所有 Y 而组成。</translation>
     </message>
     <message>
         <location filename="../SqlUiLexer.cpp" line="83"/>
         <source>(X,Y,...) The multi-argument max() function returns the argument with the maximum value, or return NULL if any argument is NULL.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">(X,Y,...) 多参数的 max() 函数返回有最大值的参数，如有任何参数为 NULL 则返回 NULL。</translation>
     </message>
     <message>
         <location filename="../SqlUiLexer.cpp" line="84"/>
         <source>(X,Y,...) The multi-argument min() function returns the argument with the minimum value.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">(X,Y,...) 多参数的 min() 函数返回有最小值的参数。</translation>
     </message>
     <message>
         <location filename="../SqlUiLexer.cpp" line="85"/>
         <source>(X,Y) The nullif(X,Y) function returns its first argument if the arguments are different and NULL if the arguments are the same.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">(X,Y) nullif(X,Y) 函数在传入的两个参数不同时返回首个参数；两个参数相同则返回 NULL。</translation>
     </message>
     <message>
         <location filename="../SqlUiLexer.cpp" line="86"/>
         <source>(FORMAT,...) The printf(FORMAT,...) SQL function works like the sqlite3_mprintf() C-language function and the printf() function from the standard C library.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">(FORMAT,...) printf(FORMAT,...) SQL 函数的功效类似 sqlite3_mprintf() C 语言函数和标准 C 语言库中的 printf() 函数。</translation>
     </message>
     <message>
         <location filename="../SqlUiLexer.cpp" line="87"/>
         <source>(X) The quote(X) function returns the text of an SQL literal which is the value of its argument suitable for inclusion into an SQL statement.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">(X) quote(X) 函数返回一个 SQL 文本值，适合在各种 SQL 语句中用作参数值。</translation>
     </message>
     <message>
         <location filename="../SqlUiLexer.cpp" line="88"/>
         <source>() The random() function returns a pseudo-random integer between -9223372036854775808 and +9223372036854775807.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">() random() 函数返回一个伪随机整数，范围在 -9223372036854775808 至 +9223372036854775807 之间。</translation>
     </message>
     <message>
         <location filename="../SqlUiLexer.cpp" line="89"/>
         <source>(N) The randomblob(N) function return an N-byte blob containing pseudo-random bytes.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">(N) randomblob(N) 函数返回一个长度为 N 字节的 Blob，包含伪随机的字节。</translation>
     </message>
     <message>
         <location filename="../SqlUiLexer.cpp" line="90"/>
         <source>(X,Y,Z) The replace(X,Y,Z) function returns a string formed by substituting string Z for every occurrence of string Y in string X.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">(X,Y,Z) replace(X,Y,Z) 函数返回一个字符串，其中是将字符串 X 中的每个 Y 字符串替换为 Z 字符串。</translation>
     </message>
     <message>
         <location filename="../SqlUiLexer.cpp" line="91"/>
         <source>(X) The round(X) function returns a floating-point value X rounded to zero digits to the right of the decimal point.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">(X) round(X) 函数返回一个浮点值，X 被四舍五入为 0 个小数。</translation>
     </message>
     <message>
         <location filename="../SqlUiLexer.cpp" line="92"/>
         <source>(X,Y) The round(X,Y) function returns a floating-point value X rounded to Y digits to the right of the decimal point.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">(X) round(X) 函数返回一个浮点值，X 被四舍五入为 Y 个小数。</translation>
     </message>
     <message>
         <location filename="../SqlUiLexer.cpp" line="93"/>
         <source>(X) rtrim(X) removes spaces from the right side of X.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">(X) ltrim(X) 移除 X 中右侧的空白字符。</translation>
     </message>
     <message>
         <location filename="../SqlUiLexer.cpp" line="94"/>
         <source>(X,Y) The rtrim(X,Y) function returns a string formed by removing any and all characters that appear in Y from the right side of X.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">(X,Y) The ltrim(X,Y) 函数返回一个字符串，该字符串是从 X 中的右侧删除所有 Y 而组成。</translation>
     </message>
     <message>
         <location filename="../SqlUiLexer.cpp" line="95"/>
         <source>(X) The soundex(X) function returns a string that is the soundex encoding of the string X.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">(X) soundex(X) 函数返回一个字符串，由字符串 X 的 soundex 编码组成。</translation>
     </message>
     <message>
         <location filename="../SqlUiLexer.cpp" line="96"/>
         <source>(X,Y) substr(X,Y) returns all characters through the end of the string X beginning with the Y-th.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">(X,Y) substr(X,Y) 函数返回字符串 X 中第 Y 个字符开始的所有字符。</translation>
     </message>
     <message>
         <location filename="../SqlUiLexer.cpp" line="97"/>
         <source>(X,Y,Z) The substr(X,Y,Z) function returns a substring of input string X that begins with the Y-th character and which is Z characters long.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">(X,Y,Z) substr(X,Y,Z) 函数返回输入字符串 X 中第 Y 个字符开始的 Z 个长字符。</translation>
     </message>
     <message>
         <location filename="../SqlUiLexer.cpp" line="98"/>
         <source>() The total_changes() function returns the number of row changes caused by INSERT, UPDATE or DELETE statements since the current database connection was opened.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">() total_changes() 函数返回当前数据库连接打开以来 INSERT、UPDATE 或 DELETE 语句更改的行数总计。</translation>
     </message>
     <message>
         <location filename="../SqlUiLexer.cpp" line="99"/>
         <source>(X) trim(X) removes spaces from both ends of X.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">(X) trim(X) 移除 X 中左右两侧的空白字符。</translation>
     </message>
     <message>
         <location filename="../SqlUiLexer.cpp" line="100"/>
         <source>(X,Y) The trim(X,Y) function returns a string formed by removing any and all characters that appear in Y from both ends of X.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">(X,Y) trim(X,Y) 函数返回一个字符串，从 X 的左右两端删除所有 Y 字符。</translation>
     </message>
     <message>
         <location filename="../SqlUiLexer.cpp" line="101"/>
         <source>(X) The typeof(X) function returns a string that indicates the datatype of the expression X.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">(X) typeof(X) 函数返回一个字符串，表示表达式 X 的数据类型。</translation>
     </message>
     <message>
         <location filename="../SqlUiLexer.cpp" line="102"/>
         <source>(X) The unicode(X) function returns the numeric unicode code point corresponding to the first character of the string X.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">(X) unicode(X) 函数字符串 X 的第一个字符所对应的 Unicode 代码点数字。</translation>
     </message>
     <message>
         <location filename="../SqlUiLexer.cpp" line="103"/>
         <source>(X) The upper(X) function returns a copy of input string X in which all lower-case ASCII characters are converted to their upper-case equivalent.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">(X) upper(X) 函数返回输入字符串的副本，其中所有小写 ASCII 字符转换为等效的大写字母。</translation>
     </message>
     <message>
         <location filename="../SqlUiLexer.cpp" line="104"/>
         <source>(N) The zeroblob(N) function returns a BLOB consisting of N bytes of 0x00.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">(N) zeroblob(N) 函数返回一个 BLOB，由 N 个字节的 0x00 组成。</translation>
     </message>
     <message>
         <location filename="../SqlUiLexer.cpp" line="106"/>
@@ -7036,53 +7038,53 @@ Use of this function must be authorized from Preferences.</source>
         <location filename="../SqlUiLexer.cpp" line="108"/>
         <location filename="../SqlUiLexer.cpp" line="109"/>
         <source>(timestring,modifier,modifier,...)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">(时间字符串,修饰符,修饰符,...)</translation>
     </message>
     <message>
         <location filename="../SqlUiLexer.cpp" line="110"/>
         <source>(format,timestring,modifier,modifier,...)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">(格式,时间字符串,修饰符,修饰符,...)</translation>
     </message>
     <message>
         <location filename="../SqlUiLexer.cpp" line="112"/>
         <source>(X) The avg() function returns the average value of all non-NULL X within a group.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">(X) avg() 函数返回一个组中所有非 NULL 的 X 的平均值。</translation>
     </message>
     <message>
         <location filename="../SqlUiLexer.cpp" line="113"/>
         <source>(X) The count(X) function returns a count of the number of times that X is not NULL in a group.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">(X) count(X) 函数返回一个组中所有非 NULL 的 X 的数量。</translation>
     </message>
     <message>
         <location filename="../SqlUiLexer.cpp" line="114"/>
         <source>(X) The group_concat() function returns a string which is the concatenation of all non-NULL values of X.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">(X) group_concat() 函数返回一个字符串，由 X 的所有非 NULL 值串联而成。</translation>
     </message>
     <message>
         <location filename="../SqlUiLexer.cpp" line="115"/>
         <source>(X,Y) The group_concat() function returns a string which is the concatenation of all non-NULL values of X. If parameter Y is present then it is used as the separator between instances of X.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">(X,Y) group_concat() 函数返回一个字符串，由 X 的所有非 NULL 值串联而成。如果提供了 Y，Y 作为串联 X 时的分隔符。</translation>
     </message>
     <message>
         <location filename="../SqlUiLexer.cpp" line="116"/>
         <source>(X) The max() aggregate function returns the maximum value of all values in the group.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">(X) max() 聚合函数返回组中所有值的最大值。</translation>
     </message>
     <message>
         <location filename="../SqlUiLexer.cpp" line="117"/>
         <source>(X) The min() aggregate function returns the minimum non-NULL value of all values in the group.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">(X) min() 聚合函数返回组中所有值的非 NULL 的最小值。</translation>
     </message>
     <message>
         <location filename="../SqlUiLexer.cpp" line="118"/>
         <location filename="../SqlUiLexer.cpp" line="119"/>
         <source>(X) The sum() and total() aggregate functions return sum of all non-NULL values in the group.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">(X) sum() 和 total() 聚合函数返回组中所有值的非 NULL 值的总计。</translation>
     </message>
     <message>
         <location filename="../SqlUiLexer.cpp" line="121"/>
         <source>() The number of the row within the current partition. Rows are numbered starting from 1 in the order defined by the ORDER BY clause in the window definition, or in arbitrary order otherwise.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">() 当前分区内的行数。行数从 1 开始，以 ORDER BY 子句指定的顺序排列（未提供则以任意顺序排列）。</translation>
     </message>
     <message>
         <location filename="../SqlUiLexer.cpp" line="122"/>
@@ -7112,28 +7114,28 @@ Use of this function must be authorized from Preferences.</source>
     <message>
         <location filename="../SqlUiLexer.cpp" line="127"/>
         <source>(expr) Returns the result of evaluating expression expr against the previous row in the partition. Or, if there is no previous row (because the current row is the first), NULL.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">(表达式) 返回对分区中上一行的表达式评估结果。如果当前行是第一行，返回 NULL。</translation>
     </message>
     <message>
         <location filename="../SqlUiLexer.cpp" line="128"/>
         <source>(expr,offset) If the offset argument is provided, then it must be a non-negative integer. In this case the value returned is the result of evaluating expr against the row offset rows before the current row within the partition. If offset is 0, then expr is evaluated against the current row. If there is no row offset rows before the current row, NULL is returned.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">(表达式,偏移) 如果提供偏移参数，它须是非负数整数。此时返回针对分区中当前行减去行偏移所对应的行来评估表达式的结果。如果偏移为0，则评估当前行。如果当前行之前没有对应偏移的行，返回 NULL。</translation>
     </message>
     <message>
         <location filename="../SqlUiLexer.cpp" line="129"/>
         <location filename="../SqlUiLexer.cpp" line="132"/>
         <source>(expr,offset,default) If default is also provided, then it is returned instead of NULL if the row identified by offset does not exist.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">(表达式,偏移,默认值) 如果还提供默认值参数，在偏移所标定的行不存在时，返回默认值而非 NULL。</translation>
     </message>
     <message>
         <location filename="../SqlUiLexer.cpp" line="130"/>
         <source>(expr) Returns the result of evaluating expression expr against the next row in the partition. Or, if there is no next row (because the current row is the last), NULL.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">(表达式) 返回对分区中下一行的表达式评估结果。如果没有下一行，返回 NULL。</translation>
     </message>
     <message>
         <location filename="../SqlUiLexer.cpp" line="131"/>
         <source>(expr,offset) If the offset argument is provided, then it must be a non-negative integer. In this case the value returned is the result of evaluating expr against the row offset rows after the current row within the partition. If offset is 0, then expr is evaluated against the current row. If there is no row offset rows after the current row, NULL is returned.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">(表达式,偏移) 如果提供偏移参数，它须是非负数整数。此时返回针对分区中当前行加上行偏移所对应的行来评估表达式的结果。如果偏移为0，则评估当前行。如果当前行之前没有对应偏移的行，返回 NULL。</translation>
     </message>
     <message>
         <location filename="../SqlUiLexer.cpp" line="133"/>
@@ -7694,12 +7696,13 @@ Hold %3Shift and click to jump there</source>
     <message>
         <location filename="../TableBrowser.ui" line="839"/>
         <source>Find in cells</source>
-        <translation>在单元格中查找</translation>
+        <translatorcomment>缩减文本标签长度</translatorcomment>
+        <translation>单元格查找</translation>
     </message>
     <message>
         <location filename="../TableBrowser.ui" line="842"/>
         <source>Open the find tool bar which allows you to search for values in the table view below.</source>
-        <translation>打开查找栏，可以在其中搜索表内数据。</translation>
+        <translation>打开查找工具栏，你可以用它搜索当前表中的数据。</translation>
     </message>
     <message>
         <source>Ctrl+F</source>
@@ -7799,7 +7802,8 @@ Hold %3Shift and click to jump there</source>
     <message>
         <location filename="../TableBrowser.ui" line="1022"/>
         <source>Toggle Format Toolbar</source>
-        <translation>切换格式工具栏</translation>
+        <translatorcomment>缩减文本标签长度，不失语义</translatorcomment>
+        <translation>格式工具栏</translation>
     </message>
     <message>
         <location filename="../TableBrowser.ui" line="1025"/>
