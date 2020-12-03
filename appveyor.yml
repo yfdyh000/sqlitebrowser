@@ -33,12 +33,12 @@ install:
     cmake -G "Visual Studio 15 2017 Win64" -Wno-dev
 
     dir
-    
+after_build:
+- cmd: dir
+   
     cd installer\windows
     
     build.cmd win64
-after_build:
-- cmd: dir
 build:
   project: ALL_BUILD.vcxproj
   verbosity: minimal
