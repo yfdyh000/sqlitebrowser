@@ -1,0 +1,41 @@
+version: 1.0.{build}
+image: Visual Studio 2017
+clone_folder: C:\git_repos\sqlitebrowser
+environment:
+  QTDIR: C:\Qt\5.13.2\msvc2017_64
+  PATH: '%PATH%;%QTDIR%\bin'
+install:
+- cmd: >-
+    appveyor DownloadFile "https://slproweb.com/download/Win64OpenSSL_Light-1_1_1h.exe" -FileName Win64OpenSSL_Light.exe
+
+    Win64OpenSSL_Light.exe /silent /verysilent /sp- /suppressmsgboxes /DIR=C:\dev
+
+
+    appveyor DownloadFile "https://www.sqlite.org/2020/sqlite-amalgamation-3340000.zip" -FileName sqlite_amal.zip
+
+    7z x sqlite_amal.zip
+
+    move sqlite-amalgamation-3340000 C:\dev\SQLite-Win64
+
+    call "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Auxiliary\Build\vcvars64.bat"
+
+    cd C:\dev\SQLite-Win64
+
+    cl sqlite3.c -DSQLITE_API=__declspec(dllexport) -link -dll -out:sqlite3.dll
+
+    cd C:\git_repos\sqlitebrowser
+
+    exit
+
+
+    call "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Auxiliary\Build\vcvars64.bat"
+
+    cmake -G "Visual Studio 15 2017 Win64" -Wno-dev
+
+    dir
+build:
+  project: ALL_BUILD.vcxproj
+  verbosity: minimal
+artifacts:
+- path: Debug
+- path: sqlitebrowser-*.exe
