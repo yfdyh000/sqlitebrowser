@@ -35,6 +35,8 @@ install:
     dir
     
     installer\windows\build.cmd win64
+after_build:
+- cmd: dir
 build:
   project: ALL_BUILD.vcxproj
   verbosity: minimal
