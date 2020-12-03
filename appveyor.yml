@@ -34,7 +34,9 @@ install:
 
     dir
     
-    installer\windows\build.cmd win64
+    cd installer\windows
+    
+    build.cmd win64
 after_build:
 - cmd: dir
 build:
