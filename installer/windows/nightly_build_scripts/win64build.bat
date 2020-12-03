@@ -123,15 +123,6 @@ MOVE %CD%\zip\System64\* "%CD%\zip\DB Browser for SQLite"
 %ZIP_EXE% a "DB.Browser.for.SQLite-%RUN_DATE%-win64.zip" "%CD%\zip\DB Browser for SQLite"
 RMDIR /S /Q %CD%\zip
 
-:: Save the last commit hash to 'commit.txt' and upload it to the nightlies server
+:: Save the last commit hash to 'commit.txt'
 CD C:\\git_repos\\sqlitebrowser
 git rev-parse --verify HEAD 1>C:\\builds\\commit.txt
-pscp -q -p -i C:\dev\puttygen_private.ppk "%DEST_PATH%\commit.txt" nightlies@nightlies.sqlitebrowser.org:/nightlies/win64
-
-:: Upload the packages to the nightlies server
-pscp -q -p -i C:\dev\puttygen_private.ppk "%DEST_PATH%\DB*%RUN_DATE%*win64.*" nightlies@nightlies.sqlitebrowser.org:/nightlies/win64
-
-:: Copy the new binaries to /latest directory on the nightlies server
-plink -i C:\dev\puttygen_private.ppk nightlies@nightlies.sqlitebrowser.org "cd /nightlies/latest; rm -f *-win64.*"
-plink -i C:\dev\puttygen_private.ppk nightlies@nightlies.sqlitebrowser.org "cp /nightlies/win64/DB*SQLite-%RUN_DATE%-win64.msi /nightlies/latest/DB.Browser.for.SQLite-win64.msi"
-plink -i C:\dev\puttygen_private.ppk nightlies@nightlies.sqlitebrowser.org "cp /nightlies/win64/DB*SQLite-%RUN_DATE%-win64.zip /nightlies/latest/DB.Browser.for.SQLite-win64.zip"
