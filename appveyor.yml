@@ -40,9 +40,8 @@ on_success:
     
     build.cmd win64
 build:
-  project: ALL_BUILD.vcxproj
-  verbosity: minimal
+  project: sqlitebrowser.sln
 artifacts:
 - path: Debug
 - path: sqlitebrowser-*.exe
-- path: C:\builds
+- path: ../../builds
