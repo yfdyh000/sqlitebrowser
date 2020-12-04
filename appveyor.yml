@@ -11,9 +11,9 @@ install:
     Win64OpenSSL_Light.exe /silent /verysilent /sp- /suppressmsgboxes /DIR=C:\dev
 
 
-    appveyor DownloadFile "https://www.sqlite.org/2020/sqlite-amalgamation-3340000.zip" -FileName sqlite_amal.zip
+    appveyor DownloadFile "https://www.sqlite.org/2020/sqlite-amalgamation-3340000.zip" -FileName C:\dev\sqlite_amal.zip
 
-    7z x sqlite_amal.zip
+    7z x C:\dev\sqlite_amal.zip
 
     move sqlite-amalgamation-3340000 C:\dev\SQLite-Win64
 

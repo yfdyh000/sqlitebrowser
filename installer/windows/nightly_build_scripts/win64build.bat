@@ -24,7 +24,7 @@ CD C:\dev
 %ZIP_EXE% e sqlite*zip "-o%SQLITE_DIR%"
 
 :: Update repositories
-::git clone -b v3.4.2 https://github.com/sqlcipher/sqlcipher.git SQLCipher-Win64
+git clone -b v3.4.2 https://github.com/sqlcipher/sqlcipher.git SQLCipher-Win64
 CD C:\git_repos\SQLCipher-Win64
 git clean -dffx
 git checkout -f HEAD
@@ -35,7 +35,7 @@ git clean -dffx
 git pull
 git clean -dffx
 
-::git clone -b %BRANCH% https://github.com/sqlitebrowser/sqlitebrowser.git "%DB4S_DIR%Win64"
+git clone -b %BRANCH% https://github.com/sqlitebrowser/sqlitebrowser.git "%DB4S_DIR%Win64"
 CD C:\git_repos\sqlitebrowser
 git clean -dffx
 git checkout -f HEAD
