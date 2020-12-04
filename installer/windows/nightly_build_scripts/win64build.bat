@@ -1,5 +1,5 @@
 :: Destination path - specify where to move package after build
-SET DEST_PATH=C:\\builds
+SET DEST_PATH=C:\git_repos\sqlitebrowser\builds
 MKDIR "%DEST_PATH%"
 
 SET ZIP_EXE="C:\Program Files\7-Zip\7z.exe"
@@ -16,8 +16,8 @@ IF "%1"=="" (SET BRANCH="master") ELSE (SET BRANCH="%1")
 
 CD /d "C:\"
 if exist "%SQLITE_DIR%" rd /q /s "%SQLITE_DIR%"
-if exist "C:\\builds\\release-sqlite-win64" rd /q /s "C:\\builds\\release-sqlite-win64"
-if exist "C:\\builds\\release-sqlcipher-win64" rd /q /s "C:\\builds\\release-sqlcipher-win64"
+if exist "%DEST_PATH%\\release-sqlite-win64" rd /q /s "%DEST_PATH%\\release-sqlite-win64"
+if exist "%DEST_PATH%\\release-sqlcipher-win64" rd /q /s "%DEST_PATH%\\release-sqlcipher-win64"
 
 :: Unpack SQLite
 CD C:\dev
@@ -82,7 +82,7 @@ curl -L -o test_windirent.h "https://sqlite.org/src/raw?filename=src/test_windir
 cl /MD fileio.c test_windirent.c -link sqlite3.lib -dll -out:fileio.dll
 
 :: Run CMake for SQLite x64
-CD C:\\builds
+CD %DEST_PATH%
 MKDIR "release-sqlite-win64"
 CD "release-sqlite-win64"
 cmake -G "Visual Studio 15 2017 Win64" -Wno-dev C:\\git_repos\\sqlitebrowser
@@ -97,7 +97,7 @@ CD %SQLCIPHER_DIR%
 nmake /f Makefile.msc sqlcipher.dll USE_AMALGAMATION=1 NO_TCL=1 SQLITE3DLL=sqlcipher.dll SQLITE3LIB=sqlcipher.lib SQLITE3EXE=sqlcipher.exe LTLINKOPTS="C:\dev\OpenSSL-Win64\lib\libcrypto.lib" OPT_FEATURE_FLAGS="-DSQLITE_TEMP_STORE=2 -DSQLITE_HAS_CODEC=1 -DSQLITE_ENABLE_FTS3=1 -DSQLITE_ENABLE_FTS5=1 -DSQLITE_ENABLE_FTS3_PARENTHESIS=1 -DSQLITE_ENABLE_STAT4=1 -DSQLITE_SOUNDEX=1 -DSQLITE_ENABLE_JSON1=1 -DSQLITE_ENABLE_GEOPOLY=1 -DSQLITE_ENABLE_RTREE=1 -DSQLCIPHER_CRYPTO_OPENSSL=1 -DSQLITE_MAX_ATTACHED=125 -IC:\dev\OpenSSL-Win64\include"
 
 :: Run CMake for SQLCipher x64
-CD C:\\builds
+CD %DEST_PATH%
 MKDIR "release-sqlcipher-win64"
 CD "release-sqlcipher-win64"
 cmake -G "Visual Studio 15 2017 Win64" -Wno-dev -Dsqlcipher=1 C:\\git_repos\\sqlitebrowser
@@ -125,4 +125,4 @@ RMDIR /S /Q %CD%\zip
 
 :: Save the last commit hash to 'commit.txt'
 CD C:\\git_repos\\sqlitebrowser
-git rev-parse --verify HEAD 1>C:\\builds\\commit.txt
+git rev-parse --verify HEAD 1>%DEST_PATH%\\commit.txt

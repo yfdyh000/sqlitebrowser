@@ -44,4 +44,4 @@ build:
 artifacts:
 - path: Debug
 - path: sqlitebrowser-*.exe
-- path: ../../builds
+- path: builds
