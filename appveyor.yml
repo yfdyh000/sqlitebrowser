@@ -33,7 +33,7 @@ install:
     cmake -G "Visual Studio 15 2017 Win64" -Wno-dev
 
     dir
-on_success:
+after_build:
 - cmd: dir
    
     cd installer\windows
