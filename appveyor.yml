@@ -36,9 +36,10 @@ install:
 after_build:
 - cmd: dir
    
-    cd installer\windows
+    cd installer\windows\nightly_build_scripts
     
-    build.cmd win64
+    win64build.bat
+cache: '\Debug\*.obj'
 build:
   project: sqlitebrowser.sln
 artifacts:
