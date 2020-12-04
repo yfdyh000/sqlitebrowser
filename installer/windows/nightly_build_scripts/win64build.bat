@@ -3,8 +3,8 @@ SET DEST_PATH=C:\git_repos\sqlitebrowser\builds
 MKDIR "%DEST_PATH%"
 
 SET ZIP_EXE="C:\Program Files\7-Zip\7z.exe"
-SET SQLITE_DIR=C:\\dev\\SQLite-Win64
-SET SQLCIPHER_DIR=C:\\git_repos\\SQLCipher-Win64
+SET SQLITE_DIR=C:\dev\SQLite-Win64
+SET SQLCIPHER_DIR=C:\git_repos\SQLCipher-Win64
 SET SQLCIPHER_TAG=v4.4.0
 
 :: You need to change the date format in Windows settings to YYYY-MM-DD
@@ -16,8 +16,8 @@ IF "%1"=="" (SET BRANCH="master") ELSE (SET BRANCH="%1")
 
 CD /d "C:\"
 if exist "%SQLITE_DIR%" rd /q /s "%SQLITE_DIR%"
-if exist "%DEST_PATH%\\release-sqlite-win64" rd /q /s "%DEST_PATH%\\release-sqlite-win64"
-if exist "%DEST_PATH%\\release-sqlcipher-win64" rd /q /s "%DEST_PATH%\\release-sqlcipher-win64"
+if exist "%DEST_PATH%\release-sqlite-win64" rd /q /s "%DEST_PATH%\release-sqlite-win64"
+if exist "%DEST_PATH%\release-sqlcipher-win64" rd /q /s "%DEST_PATH%\release-sqlcipher-win64"
 
 :: Unpack SQLite
 CD C:\dev
@@ -25,7 +25,7 @@ CD C:\dev
 
 :: Update repositories
 ::git clone -b v3.4.2 https://github.com/sqlcipher/sqlcipher.git SQLCipher-Win64
-CD C:\\git_repos\\SQLCipher-Win64
+CD C:\git_repos\SQLCipher-Win64
 git clean -dffx
 git checkout -f HEAD
 git checkout master
@@ -36,7 +36,7 @@ git pull
 git clean -dffx
 
 ::git clone -b %BRANCH% https://github.com/sqlitebrowser/sqlitebrowser.git "%DB4S_DIR%Win64"
-CD C:\\git_repos\\sqlitebrowser
+CD C:\git_repos\sqlitebrowser
 git clean -dffx
 git checkout -f HEAD
 git checkout master
@@ -85,7 +85,7 @@ cl /MD fileio.c test_windirent.c -link sqlite3.lib -dll -out:fileio.dll
 CD %DEST_PATH%
 MKDIR "release-sqlite-win64"
 CD "release-sqlite-win64"
-cmake -G "Visual Studio 15 2017 Win64" -Wno-dev C:\\git_repos\\sqlitebrowser
+cmake -G "Visual Studio 15 2017 Win64" -Wno-dev C:\git_repos\sqlitebrowser
 
 :: Build package
 devenv /Build Release sqlitebrowser.sln /project "ALL_BUILD"
@@ -100,7 +100,7 @@ nmake /f Makefile.msc sqlcipher.dll USE_AMALGAMATION=1 NO_TCL=1 SQLITE3DLL=sqlci
 CD %DEST_PATH%
 MKDIR "release-sqlcipher-win64"
 CD "release-sqlcipher-win64"
-cmake -G "Visual Studio 15 2017 Win64" -Wno-dev -Dsqlcipher=1 C:\\git_repos\\sqlitebrowser
+cmake -G "Visual Studio 15 2017 Win64" -Wno-dev -Dsqlcipher=1 C:\git_repos\sqlitebrowser
 
 :: Build package
 devenv /Build Release sqlitebrowser.sln /project "ALL_BUILD"
@@ -110,7 +110,7 @@ CD "Release"
 MOVE "DB Browser for SQLite.exe" "DB Browser for SQLCipher.exe"
 
 :: Build MSI
-CD C:\\git_repos\\sqlitebrowser\\installer\\windows
+CD C:\git_repos\sqlitebrowser\installer\windows
 CALL build.cmd win64
 
 :: Move package to DEST_PATH
@@ -124,5 +124,5 @@ MOVE %CD%\zip\System64\* "%CD%\zip\DB Browser for SQLite"
 RMDIR /S /Q %CD%\zip
 
 :: Save the last commit hash to 'commit.txt'
-CD C:\\git_repos\\sqlitebrowser
-git rev-parse --verify HEAD 1>%DEST_PATH%\\commit.txt
+CD C:\git_repos\sqlitebrowser
+git rev-parse --verify HEAD 1>%DEST_PATH%\commit.txt
