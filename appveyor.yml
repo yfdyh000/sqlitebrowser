@@ -6,10 +6,9 @@ environment:
   PATH: '%PATH%;%QTDIR%\bin'
 install:
 - cmd: >-
-    appveyor DownloadFile "https://slproweb.com/download/Win64OpenSSL_Light-1_1_1h.exe" -FileName Win64OpenSSL_Light.exe
-
-    Win64OpenSSL_Light.exe /silent /verysilent /sp- /suppressmsgboxes /DIR=C:\dev
-
+    MKLINK /D C:\dev\OpenSSL-Win64 C:\OpenSSL-Win64\bin
+    
+    MKLINK /D C:\dev\OpenSSL-Win32 C:\OpenSSL-Win32\bin
 
     appveyor DownloadFile "https://www.sqlite.org/2020/sqlite-amalgamation-3340000.zip" -FileName C:\dev\sqlite_amal.zip
 
