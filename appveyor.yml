@@ -39,7 +39,7 @@ after_build:
     cd installer\windows\nightly_build_scripts
     
     win64build.bat
-cache: '\Debug\*.obj'
+cache: '*\Debug\*.obj'
 build:
   project: sqlitebrowser.sln
 artifacts:

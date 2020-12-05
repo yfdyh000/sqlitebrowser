@@ -1,3 +1,4 @@
+@echo on
 :: Destination path - specify where to move package after build
 SET DEST_PATH=C:\git_repos\sqlitebrowser\builds
 MKDIR "%DEST_PATH%"
