@@ -6,9 +6,9 @@ environment:
   PATH: '%PATH%;%QTDIR%\bin'
 install:
 - cmd: >-
-    MKLINK /D C:\dev\OpenSSL-Win64 C:\OpenSSL-Win64\bin
+    MKLINK /D C:\dev\OpenSSL-Win64 C:\OpenSSL-v111-Win64\bin
     
-    MKLINK /D C:\dev\OpenSSL-Win32 C:\OpenSSL-Win32\bin
+    MKLINK /D C:\dev\OpenSSL-Win32 C:\OpenSSL-v111-Win32\bin
 
     appveyor DownloadFile "https://www.sqlite.org/2020/sqlite-amalgamation-3340000.zip" -FileName C:\dev\sqlite_amal.zip
 
