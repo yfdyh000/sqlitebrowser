@@ -104,6 +104,7 @@ CD %DEST_PATH%
 MKDIR "release-sqlcipher-win64"
 CD "release-sqlcipher-win64"
 cmake -G "Visual Studio 15 2017 Win64" -Wno-dev -Dsqlcipher=1 C:\git_repos\sqlitebrowser
+CD C:\git_repos\sqlitebrowser
 
 :: Build package
 devenv /Build Release sqlitebrowser.sln /project "ALL_BUILD"
