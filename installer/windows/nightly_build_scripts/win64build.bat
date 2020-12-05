@@ -35,7 +35,7 @@ git clean -dffx
 git pull
 git clean -dffx
 
-git clone -b %BRANCH% https://github.com/sqlitebrowser/sqlitebrowser.git "%DB4S_DIR%Win64"
+::git clone -b %BRANCH% https://github.com/sqlitebrowser/sqlitebrowser.git "%DB4S_DIR%Win64"
 CD C:\git_repos\sqlitebrowser
 git clean -dffx
 git checkout -f HEAD
