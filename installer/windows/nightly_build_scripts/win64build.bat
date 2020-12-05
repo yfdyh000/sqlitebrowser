@@ -38,7 +38,7 @@ git pull
 git clean -dffx
 
 ::git clone -b %BRANCH% https://github.com/sqlitebrowser/sqlitebrowser.git "%DB4S_DIR%Win64"
-rem CD C:\git_repos\sqlitebrowser
+CD C:\git_repos\sqlitebrowser
 rem git clean -dffx
 rem git checkout -f HEAD
 rem git checkout master
@@ -90,6 +90,7 @@ CD "release-sqlite-win64"
 cmake -G "Visual Studio 15 2017 Win64" -Wno-dev C:\git_repos\sqlitebrowser
 
 :: Build package
+CD C:\git_repos\sqlitebrowser
 devenv /Build Release sqlitebrowser.sln /project "ALL_BUILD"
 
 :: WIN64 SQLCIPHER BUILD PROCEDURE
