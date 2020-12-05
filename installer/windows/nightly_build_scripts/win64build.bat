@@ -1,6 +1,6 @@
 @echo on
 :: Destination path - specify where to move package after build
-SET DEST_PATH=C:\git_repos\sqlitebrowser\builds
+SET DEST_PATH=C:\\builds
 MKDIR "%DEST_PATH%"
 
 SET ZIP_EXE="C:\Program Files\7-Zip\7z.exe"

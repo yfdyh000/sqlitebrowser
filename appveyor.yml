@@ -11,6 +11,8 @@ install:
     MKLINK /D C:\dev\OpenSSL-Win64 C:\OpenSSL-v111-Win64
     
     MKLINK /D C:\dev\OpenSSL-Win32 C:\OpenSSL-v111-Win32
+    
+    MKLINK /D C:\git_repos\sqlitebrowser\builds C:\builds
 
     appveyor DownloadFile "https://www.sqlite.org/2020/sqlite-amalgamation-3340000.zip" -FileName C:\dev\sqlite_amal.zip
 
@@ -41,9 +43,9 @@ after_build:
     
     win64build.bat
 cache:
-- '**.obj'
-- sqlitebrowser_autogen
-- sqlitebrowser.dir
+- '**\*.obj'
+- sqlitebrowser_autogen\**
+- sqlitebrowser.dir\**
 build:
   project: sqlitebrowser.sln
 artifacts:
