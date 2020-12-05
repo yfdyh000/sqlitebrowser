@@ -37,15 +37,15 @@ git pull
 git clean -dffx
 
 ::git clone -b %BRANCH% https://github.com/sqlitebrowser/sqlitebrowser.git "%DB4S_DIR%Win64"
-CD C:\git_repos\sqlitebrowser
-git clean -dffx
-git checkout -f HEAD
-git checkout master
-git pull
-git checkout %BRANCH%
-git clean -dffx
-git pull
-git clean -dffx
+rem CD C:\git_repos\sqlitebrowser
+rem git clean -dffx
+rem git checkout -f HEAD
+rem git checkout master
+rem git pull
+rem git checkout %BRANCH%
+rem git clean -dffx
+rem git pull
+rem git clean -dffx
 
 
 :: Get the current commit hash
