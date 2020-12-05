@@ -6,6 +6,12 @@ environment:
   PATH: '%PATH%;%QTDIR%\bin'
 install:
 - cmd: >-
+    dir C:
+    
+    dir C:\OpenSSL-v111-Win64\
+    
+    dir C:\OpenSSL-v111-Win64\bin\
+
     MKLINK /D C:\dev\OpenSSL-Win64 C:\OpenSSL-v111-Win64\bin
     
     MKLINK /D C:\dev\OpenSSL-Win32 C:\OpenSSL-v111-Win32\bin
