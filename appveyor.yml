@@ -46,8 +46,6 @@ cache:
 - '**\*.obj'
 - sqlitebrowser_autogen\**
 - sqlitebrowser.dir\**
-build:
-  project: sqlitebrowser.sln
 artifacts:
 - path: Debug
 - path: sqlitebrowser-*.exe
