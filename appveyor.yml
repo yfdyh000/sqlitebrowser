@@ -1,10 +1,10 @@
 version: 1.0.{build}
-image: Visual Studio 2017
+image: Visual Studio 2019
 configuration: Release
 platform: x64
 clone_folder: C:\git_repos\sqlitebrowser
 environment:
-  QTDIR: C:\Qt\5.13.2\msvc2017_64
+  QTDIR: C:\Qt\5.15.1\msvc2019_64
   PATH: '%PATH%;%QTDIR%\bin'
 install:
 - cmd: >-
@@ -28,7 +28,7 @@ install:
 
     move sqlite-amalgamation-3340000 C:\dev\SQLite-Win64
 
-    call "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Auxiliary\Build\vcvars64.bat"
+    call "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\Build\vcvars64.bat"
 
     cd C:\dev\SQLite-Win64
 
@@ -39,9 +39,9 @@ install:
     exit
 
 
-    call "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Auxiliary\Build\vcvars64.bat"
+    call "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\Build\vcvars64.bat"
 
-    cmake -G "Visual Studio 15 2017 Win64" -Wno-dev
+    cmake -G "Visual Studio 16 2019" -Wno-dev
 
     dir
 after_build:

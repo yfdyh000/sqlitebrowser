@@ -65,7 +65,7 @@ IF "%CURRENT_COMMIT%"=="%LAST_COMMIT%" EXIT
 :: WIN64 SQLITE BUILD PROCEDURE
 
 :: Set path variables
-::CALL "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Auxiliary\Build\vcvars64.bat"
+::CALL "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\Build\vcvars64.bat"
 
 :: Build SQLite x64
 CD %SQLITE_DIR%
@@ -87,7 +87,7 @@ cl /MD fileio.c test_windirent.c -link sqlite3.lib -dll -out:fileio.dll
 CD %DEST_PATH%
 MKDIR "release-sqlite-win64"
 CD "release-sqlite-win64"
-cmake -G "Visual Studio 15 2017 Win64" -Wno-dev C:\git_repos\sqlitebrowser
+cmake -G "Visual Studio 16 2019" -Wno-dev C:\git_repos\sqlitebrowser
 
 :: Build package
 CD C:\git_repos\sqlitebrowser
@@ -103,7 +103,7 @@ nmake /f Makefile.msc sqlcipher.dll USE_AMALGAMATION=1 NO_TCL=1 SQLITE3DLL=sqlci
 CD %DEST_PATH%
 MKDIR "release-sqlcipher-win64"
 CD "release-sqlcipher-win64"
-cmake -G "Visual Studio 15 2017 Win64" -Wno-dev -Dsqlcipher=1 C:\git_repos\sqlitebrowser
+cmake -G "Visual Studio 16 2019" -Wno-dev -Dsqlcipher=1 C:\git_repos\sqlitebrowser
 CD C:\git_repos\sqlitebrowser
 
 :: Build package
