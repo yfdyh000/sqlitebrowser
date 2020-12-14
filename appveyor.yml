@@ -16,7 +16,7 @@ install:
     
     MKLINK /D C:\dev\OpenSSL-Win32 C:\OpenSSL-Win32
     
-    MKLINK /D C:\git_repos\sqlitebrowser\builds C:\builds
+    REM MKLINK /D C:\git_repos\sqlitebrowser\builds C:\builds
 
     appveyor DownloadFile "https://www.sqlite.org/2020/sqlite-amalgamation-3340000.zip" -FileName C:\dev\sqlite_amal.zip
 
@@ -42,6 +42,8 @@ install:
     dir
 after_build:
 - cmd: dir
+
+    MKLINK /D C:\git_repos\sqlitebrowser\builds C:\Program Files (x86)\sqlitebrowser
 
 build:
   project: INSTALL.vcxproj
