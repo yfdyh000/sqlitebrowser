@@ -44,7 +44,7 @@ after_build:
 - cmd: dir
    
 cache:
-  - **.obj -> appveyor.yml
+  - '**.obj' -> appveyor.yml
   - libs -> appveyor.yml
   - sqlitebrowser_autogen -> appveyor.yml
   - sqlitebrowser.dir -> appveyor.yml
