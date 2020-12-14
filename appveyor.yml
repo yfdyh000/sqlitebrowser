@@ -44,7 +44,11 @@ after_build:
 - cmd: dir
 
     MKLINK /D C:\git_repos\sqlitebrowser\builds C:\Program Files (x86)\sqlitebrowser
-
+cache:
+- '**.obj'
+- libs
+- sqlitebrowser_autogen
+- sqlitebrowser.dir
 build:
   project: INSTALL.vcxproj
   verbosity: minimal
