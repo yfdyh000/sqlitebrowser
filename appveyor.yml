@@ -49,7 +49,7 @@ cache:
   - 'sqlitebrowser_autogen'
   - 'sqlitebrowser.dir'
 build:
-  project: ALL_BUILD.vcxproj
+  project: INSTALL.vcxproj
   verbosity: minimal
 artifacts:
 - path: Debug
