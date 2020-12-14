@@ -45,7 +45,7 @@ after_build:
     
     win64build.bat
 cache:
-- **.obj
+- '**.obj'
 - libs
 - sqlitebrowser_autogen
 - sqlitebrowser.dir
