@@ -43,9 +43,9 @@ after_build:
    
 cache:
   - '**.obj'
-  - libs
-  - sqlitebrowser_autogen
-  - sqlitebrowser.dir
+  - 'libs'
+  - 'sqlitebrowser_autogen'
+  - 'sqlitebrowser.dir'
 build:
   project: ALL_BUILD.vcxproj
   verbosity: minimal
