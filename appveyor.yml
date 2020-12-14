@@ -8,8 +8,6 @@ environment:
   PATH: '%PATH%;%QTDIR%\bin'
 install:
 - cmd: >-
-    dir C:\Qt\5.13.2\msvc2017_64
-    
     MKDIR C:\dev
 
     MKLINK /D C:\dev\OpenSSL-Win64 C:\OpenSSL-Win64
@@ -34,21 +32,15 @@ install:
 
     exit
 
-
     call "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\Build\vcvars64.bat"
 
     cmake -G "Visual Studio 16 2019" -Wno-dev
-
-    dir
 after_build:
-- cmd: dir
-
-    MKLINK /D C:\git_repos\sqlitebrowser\builds "C:\Program Files (x86)\sqlitebrowser"
+- cmd: MKLINK /D C:\git_repos\sqlitebrowser\builds "C:\Program Files (x86)\sqlitebrowser"
 cache:
-- '**.obj'
-- libs
-- sqlitebrowser_autogen
-- sqlitebrowser.dir
+- libs -> appveyor.yml
+- sqlitebrowser_autogen -> appveyor.yml
+- sqlitebrowser.dir -> appveyor.yml
 build:
   project: INSTALL.vcxproj
   verbosity: minimal
