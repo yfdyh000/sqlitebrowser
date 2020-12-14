@@ -18,7 +18,7 @@ install:
     
     MKLINK /D C:\git_repos\sqlitebrowser\builds C:\builds
 
-    MKLINK C:\dev\OpenSSL-Win64\libeay64.dll C:\OpenSSL-v111-Win64\libeay32.dll
+    MKLINK C:\dev\OpenSSL-Win64\libeay32.dll C:\OpenSSL-v111-Win64\libssl.dll
 
     MKLINK C:\dev\OpenSSL-Win64\ssleay32.dll C:\OpenSSL-v111-Win64\libcrypto.dll
 
