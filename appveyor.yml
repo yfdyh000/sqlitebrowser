@@ -12,9 +12,9 @@ install:
     
     MKDIR C:\dev
 
-    MKLINK /D C:\dev\OpenSSL-Win64 C:\OpenSSL-v111-Win64
+    MKLINK /D C:\dev\OpenSSL-Win64 C:\OpenSSL-Win64
     
-    MKLINK /D C:\dev\OpenSSL-Win32 C:\OpenSSL-v111-Win32
+    MKLINK /D C:\dev\OpenSSL-Win32 C:\OpenSSL-Win32
     
     MKLINK /D C:\git_repos\sqlitebrowser\builds C:\builds
 
