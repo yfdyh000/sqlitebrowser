@@ -42,12 +42,12 @@ install:
     dir
 after_build:
 - cmd: dir
-   
+
 cache:
-- '**.obj' -> appveyor.yml
-- libs -> appveyor.yml
-- sqlitebrowser_autogen -> appveyor.yml
-- sqlitebrowser.dir -> appveyor.yml
+  - '**.obj -> appveyor.yml'
+  - libs
+  - sqlitebrowser_autogen
+  - sqlitebrowser.dir
 build:
   project: INSTALL.vcxproj
   verbosity: minimal
