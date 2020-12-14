@@ -8,6 +8,8 @@ environment:
   PATH: '%PATH%;%QTDIR%\bin'
 install:
 - cmd: >-
+    dir C:\Qt\5.13.2\msvc2017_64
+    
     MKDIR C:\dev
 
     MKLINK /D C:\dev\OpenSSL-Win64 C:\OpenSSL-v111-Win64
