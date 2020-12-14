@@ -1,5 +1,7 @@
 version: 1.0.{build}
 image: Visual Studio 2017
+configuration: Release
+platform: x64
 clone_folder: C:\git_repos\sqlitebrowser
 environment:
   QTDIR: C:\Qt\5.13.2\msvc2017_64
@@ -44,8 +46,12 @@ after_build:
     win64build.bat
 cache:
 - '**\*.obj'
+- 'libs\**'
 - sqlitebrowser_autogen\**
 - sqlitebrowser.dir\**
+build:
+  project: ALL_BUILD.vcxproj
+  verbosity: minimal
 artifacts:
 - path: Debug
 - path: sqlitebrowser-*.exe
