@@ -45,10 +45,10 @@ after_build:
     
     win64build.bat
 cache:
-- '**\*.obj'
-- 'libs\**'
-- sqlitebrowser_autogen\**
-- sqlitebrowser.dir\**
+- '**/*.obj'
+- 'libs/**'
+- sqlitebrowser_autogen/**
+- sqlitebrowser.dir/**
 build:
   project: ALL_BUILD.vcxproj
   verbosity: minimal
