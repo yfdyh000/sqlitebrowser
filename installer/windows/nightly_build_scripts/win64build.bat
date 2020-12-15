@@ -104,7 +104,6 @@ CD %DEST_PATH%
 MKDIR "release-sqlcipher-win64"
 CD "release-sqlcipher-win64"
 cmake -G "Visual Studio 16 2019" -Wno-dev -Dsqlcipher=1 C:\git_repos\sqlitebrowser
-CD C:\git_repos\sqlitebrowser
 
 :: Build package
 devenv /Build Release sqlitebrowser.sln /project "ALL_BUILD"
@@ -114,7 +113,6 @@ CD "Release"
 MOVE "DB Browser for SQLite.exe" "DB Browser for SQLCipher.exe"
 
 :: Build MSI
-CD C:\git_repos\sqlitebrowser\installer\windows
 CALL build.cmd win64
 
 :: Move package to DEST_PATH
