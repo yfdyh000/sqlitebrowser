@@ -65,7 +65,7 @@ IF "%CURRENT_COMMIT%"=="%LAST_COMMIT%" EXIT
 :: WIN64 SQLITE BUILD PROCEDURE
 
 :: Set path variables
-CALL "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\Build\vcvars64.bat"
+::CALL "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\Build\vcvars64.bat"
 
 :: Build SQLite x64
 CD %SQLITE_DIR%
