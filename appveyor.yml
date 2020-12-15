@@ -8,12 +8,6 @@ environment:
   PATH: '%PATH%;%QTDIR%\bin'
 install:
 - cmd: >-
-    dir C:\Qt\5.15\
-
-    dir C:\Qt\5.15.1\
-
-    dir C:\Qt\5.15.2\
-    
     MKDIR C:\dev
 
     MKLINK /D C:\dev\OpenSSL-Win64 C:\OpenSSL-Win64
@@ -44,9 +38,9 @@ install:
 after_build:
 - cmd: MKLINK /D C:\git_repos\sqlitebrowser\builds "C:\Program Files (x86)\sqlitebrowser"
 cache:
-- libs -> appveyor.yml
-- sqlitebrowser_autogen -> appveyor.yml
-- sqlitebrowser.dir -> appveyor.yml
+- libs
+- sqlitebrowser_autogen
+- sqlitebrowser.dir
 build_script:
 - cmd: installer\windows\nightly_build_scripts\win64build.bat
 artifacts:
