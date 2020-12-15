@@ -41,9 +41,8 @@ cache:
 - libs -> appveyor.yml
 - sqlitebrowser_autogen -> appveyor.yml
 - sqlitebrowser.dir -> appveyor.yml
-build:
-  project: INSTALL.vcxproj
-  verbosity: minimal
+build_script:
+- cmd: installer\windows\nightly_build_scripts\win64build.bat
 artifacts:
 - path: Debug
 - path: Release
