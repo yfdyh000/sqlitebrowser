@@ -73,7 +73,7 @@ jobs:
       - name: Build Extension
         run: clang -I /opt/homebrew/opt/sqlb-sqlite/include -L /opt/homebrew/opt/sqlb-sqlite/lib -fno-common -dynamiclib src/extensions/extension-formats.c
 
-      - if: github.event_name != 'pull_request'
+      - if: 1!=1
         name: Notarization
         id: notarization
         run: chmod +x ./installer/macos/notarize.sh && ./installer/macos/notarize.sh
@@ -94,7 +94,7 @@ jobs:
         run: security delete-keychain $RUNNER_TEMP/app-signing.keychain-db
         continue-on-error: true
 
-      - if: github.event_name != 'pull_request' && github.workflow != 'Build (macOS)'
+      - if: 1!=1 && github.workflow != 'Build (macOS)'
         name: Upload artifacts
         uses: actions/upload-artifact@v4
         with:

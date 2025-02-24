@@ -117,7 +117,7 @@ jobs:
           cd release-sqlcipher
           cmake --build . --config Release
 
-      - if: github.event_name != 'pull_request'
+      - if: 1!=1
         name: Create MSI
         env:
           ExePath: ${{ github.workspace }}
@@ -135,7 +135,7 @@ jobs:
             mv DB.Browser.for.SQLite-*.msi "DB.Browser.for.SQLite-dev-$(git rev-parse --short HEAD)-${{ matrix.arch }}.msi"
           }
 
-      - if: github.event_name != 'pull_request'
+      - if: 1!=1
         name: Upload artifacts for code signing with SignPath
         id: unsigned-artifacts
         uses: actions/upload-artifact@v4
@@ -144,7 +144,7 @@ jobs:
           path: installer\windows\DB.Browser.for.SQLite-*.msi
 
       # Change the signing-policy-slug when you release an RC, RTM or stable release.
-      - if: github.event_name != 'pull_request'
+      - if: 1!=1
         name: Code signing with SignPath
         uses: signpath/github-action-submit-signing-request@v1
         with:
@@ -156,7 +156,7 @@ jobs:
           signing-policy-slug: 'test-signing'
           wait-for-completion: true
 
-      - if: github.event_name != 'pull_request'
+      - if: 1!=1
         name: Create ZIP
         run: |
           $DATE=$(Get-Date -Format "yyyyMMdd")
@@ -173,7 +173,7 @@ jobs:
           }
           Compress-Archive -Path "target\DB Browser for SQLite\*" -DestinationPath $FILENAME_FORMAT
 
-      - if: github.event_name != 'pull_request' && github.workflow != 'Build (Windows)'
+      - if: 1!=1 && github.workflow != 'Build (Windows)'
         name: Prepare artifacts
         run: |
           mkdir build-artifacts
@@ -181,7 +181,7 @@ jobs:
           move DB.Browser.for.SQLite-*.zip build-artifacts\
           Compress-Archive -Path build-artifacts\* -DestinationPath build-artifacts-${{ matrix.arch }}.zip
 
-      - if: github.event_name != 'pull_request' && github.workflow != 'Build (Windows)'
+      - if: 1!=1 && github.workflow != 'Build (Windows)'
         name: Upload artifacts
         uses: actions/upload-artifact@v4
         with:
